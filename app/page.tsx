@@ -1,3 +1,4 @@
+import AboutMeSection from "@/components/core/AboutMeSection";
 import Header from "@/components/core/Header";
 import HeroSection from "@/components/core/HeroSection";
 
@@ -7,7 +8,7 @@ export default function Home() {
       <Header />
       <main>
       <HeroSection />
-        {/* about */}
+      <AboutMeSection />
         {/* projects */}
         {/* experience */}
         {/* education and certificates */}
