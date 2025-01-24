@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { montserrat } from "./fonts/fonts";
+import { montserrat, poppins } from "./fonts/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={montserrat.className}
+        className={`${montserrat.className} ${poppins.variable}`}
       >
         {children}
       </body>
