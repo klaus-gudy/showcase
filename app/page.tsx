@@ -1,6 +1,7 @@
 import AboutMeSection from "@/components/core/AboutMeSection";
 import Header from "@/components/core/Header";
 import HeroSection from "@/components/core/HeroSection";
+import ProjectSection from "@/components/core/ProjectSection";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <main>
       <HeroSection />
       <AboutMeSection />
-        {/* projects */}
+      <ProjectSection />
         {/* experience */}
         {/* education and certificates */}
         {/* testimonials and teams */}
