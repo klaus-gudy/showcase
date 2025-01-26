@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative pt-32 pb-20 overflow-hidden">
+    <section id="home" className="relative pt-32 pb-20 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-primary/10 to-transparent" />
       <div className="container mx-auto px-4 relative">
         <div className="max-w-4xl mx-auto text-center">

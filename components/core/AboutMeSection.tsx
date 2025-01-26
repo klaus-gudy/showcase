@@ -1,6 +1,6 @@
 const AboutMeSection = () => {
     return (
-      <section className="py-12 bg-gradient-to-t from-primary/5 via-primary/5 to-transparent">
+      <section id="about" className="py-12 bg-gradient-to-t from-primary/5 via-primary/5 to-transparent">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl">
