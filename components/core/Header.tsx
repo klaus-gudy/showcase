@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Code className="h-8 w-8 text-primary" />
-          <span className="font-heading text-xl font-bold text-primary">Showcase</span>
+          <span className="font-heading text-xl font-bold text-primary">My portifolio</span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
           <a href="#about" className="text-gray-600 hover:text-primary">About Me</a>
